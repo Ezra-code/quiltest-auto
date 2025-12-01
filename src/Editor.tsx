@@ -1,6 +1,6 @@
 import { useState } from "react";
 import ReactQuill from "react-quill-new";
-import "quill/dist/quill.bubble.css"; // ✅ correct
+import "quill/dist/quill.snow.css"; // ✅ correct
 
 
 export default function Editor() {
@@ -9,7 +9,7 @@ export default function Editor() {
   return (
     <div style={{ padding: 20 }}>
       <ReactQuill
-        theme="bubble"
+        theme="snow"
         value={value}
         onChange={setValue}
         placeholder="Type here..."
